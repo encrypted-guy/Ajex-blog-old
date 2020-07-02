@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#home {
+    width: 100vw;
+    height: 100vh;
+    background: url(home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+#home button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+    border: none;
+    background: #333;
+    border-radius: 20px;
+    outline: none;
+    color: #fff;
+    text-transform: capitalize;
+
+
+}
+#home button:hover {
+    background: #111111;
+    color: #f1f1f1;
+}
+#home button:active {
+    background: #fff;
+    color: #000;
+}
+/***********/
+/*first*/
+.profile {
+    border-radius: 60% !important;
+}
+.heading {
+    text-transform: capitalize;
+    font-size: 2rem;
+}
